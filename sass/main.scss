@@ -1,0 +1,17 @@
+@import './base/common';
+@import './base/container';
+
+@import './layout/header';
+@import './layout/logo';
+@import './layout/modal-window';
+@import './layout/hero';
+@import './layout/benefits';
+@import './layout/products';
+@import './layout/team.scss';
+@import './layout/clients';
+@import './layout/footer';
+@import './layout/menu';
+// @import './layout/footer_old';
+
+@import './utils/variables';
+@import './utils/visually-hidden';

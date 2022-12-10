@@ -1,0 +1,27 @@
+.header-logo__first,
+.footer-logo__first {
+    font-family: var(--second-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+
+    color: var(--accent-color);
+}
+
+.header-logo__last {
+    font-family: var(--second-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+
+    color: var(--logo-black-color);
+}
+
+.footer-logo__last {
+    font-family: var(--second-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+
+    color: var(--main-white-color);
+}
