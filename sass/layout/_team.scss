@@ -18,6 +18,7 @@
         display: flex;
         flex-wrap: wrap;
         }
+
     @media (min-width: 1200px) {
         flex-wrap: nowrap;
     }
@@ -26,8 +27,8 @@
 .team-list__item {
 
     @media (min-width: 768px) and (max-width: 1200px) {
-        max-width: calc((100% - 4 * 15px) / 2);
-        margin: 15px;
+        margin-left: 15px;
+        margin-bottom: 15px;
     }
 
     @media (min-width: 1200px) {
@@ -38,9 +39,11 @@
         }
     }
 
+    @media (max-width: 767px) {
     margin-bottom: 30px;
     &:last-child {
     margin-bottom: 0;
+    }
     }
 }
 
